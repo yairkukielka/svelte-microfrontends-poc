@@ -1,0 +1,20 @@
+{
+  "name": "portal-root",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@module-federation/vite": "^1.2.1"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.1.2",
+    "prettier": "^3.4.2",
+    "svelte": "^4.X.X",
+    "vite": "^5.X.X"
+  }
+}
